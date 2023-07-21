@@ -16,10 +16,75 @@
     --dark-gray-blue        :hsl(224, 30%, 27%);
 
     --fs18                  :18px;
-    font-family: 'Hanken Grotesk', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 /* 500 700 800 */
 body{
     font-family:'Hanken Grotesk', sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.card-left{
+    background-image: linear-gradient(to bottom , hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+}
+.card-left-header{
+    color: var(--pale-blue);
+    font-weight: 500;
+    font-size: 15px;
+    margin: 25px 10px 25px 10px;
+}
+.card-left-feature{
+    margin-left: 55px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom , hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0));
+}
+.card-number{
+    color: var(--white);
+    font-size: 43px;
+    font-weight: 800;
+    position: relative;
+    top: 30px;
+}
+.card-number-100{
+    position: relative;
+    top: 30px;
+    color: var(--light-lavender);
+    font-weight: 500;
+    font-size: 12px;
+}
+.card-text-header{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 10px 10px 10px;
+}
+.card-text{
+    color: var(--light-lavender);
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-right{
+    border-radius: 20px;
+}
+.card-right-header{
+    color: var(--dark-gray-blue);
+    font-weight: 800;
+    font-size: 16px;
+    margin: 0px 30px 95px 30px;
+}
+.card-righy-body{
+    margin-left: 20px;
+}
+.card-feature{
+    
 }
