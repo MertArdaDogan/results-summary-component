@@ -147,12 +147,21 @@ span{
     text-align: center;
     padding-top: 13px;
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 375px){
     .card{
         flex-wrap: wrap;
     }
-    .card-right{
+    .card-left{
         position: relative;
-        right: 30px;
+        top: 120px;
+    }
+    .card-right{
+        border-radius: 0px 0px 20px 20px;
+        width: 250px;
+        position: relative;
+        left: 25px;
+    }
+    .card-right-header{
+        margin: 25px 30px 40px 20px;
     }
 }
