@@ -147,6 +147,11 @@ span{
     text-align: center;
     padding-top: 13px;
 }
+@media all and (max-width: 555px){
+    .card-right{
+        box-shadow: initial;
+    }
+}
 @media all and (max-width: 375px){
     .card{
         flex-wrap: wrap;
