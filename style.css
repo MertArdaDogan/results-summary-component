@@ -161,7 +161,7 @@ span{
         0%   { right:0px; top:0px;}
         100% { right:30px; top:0px;}
         0%   { right:0px; top:0px;}
-      }
+    }
 }
 @media all and (max-width: 375px){
     .card{
