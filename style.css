@@ -187,6 +187,9 @@ span{
         100% { right:30px; top:0px;}
         0%   { right:0px; top:0px;}
     }
+    .card-right-body{
+        left: 30px;
+    }
 }
 @media all and (max-width: 375px){
     .card{
@@ -235,4 +238,4 @@ span{
     .card-button{
         left: 25px;
         width: 200px;
-    }
+    }}
