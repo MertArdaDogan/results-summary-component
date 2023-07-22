@@ -161,6 +161,12 @@ span{
         100% { right:10px; top:0px;}
         0%   { right:0px; top:0px;}
     }
+    .card-right{
+        width: 300px;
+    }
+    .card-right-body{
+        left: 30px;
+    }
 }
 @media all and (max-width: 510px){
     .card-left-feature{
@@ -186,9 +192,6 @@ span{
         0%   { right:0px; top:0px;}
         100% { right:30px; top:0px;}
         0%   { right:0px; top:0px;}
-    }
-    .card-right-body{
-        left: 30px;
     }
 }
 @media all and (max-width: 375px){
