@@ -163,13 +163,26 @@ span{
 @media all and (max-width: 510px){
     .card-left-feature{
         position: relative;
-        right: 15px;
+        right: 20px;
         animation-name: example;
         animation-duration: 5s;
     }
     @keyframes example {
         0%   { right:0px; top:0px;}
-        100% { right:15px; top:0px;}
+        100% { right:20px; top:0px;}
+        0%   { right:0px; top:0px;}
+    }
+}
+@media all and (max-width: 465px){
+    .card-left-feature{
+        position: relative;
+        right: 30px;
+        animation-name: example;
+        animation-duration: 5s;
+    }
+    @keyframes example {
+        0%   { right:0px; top:0px;}
+        100% { right:30px; top:0px;}
         0%   { right:0px; top:0px;}
     }
 }
@@ -178,17 +191,24 @@ span{
         flex-wrap: wrap;
     }
     .card-left{
-        position: relative;
-        top: 120px;
+        height: 250px;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    .card-left-header{
+        font-size: 16px;
     }
     .card-left-feature{
-        position: initial;
+        left: 5px;
+        height: 130px;
+        width: 130px;
     }
     .card-right{
         border-radius: 0px 0px 20px 20px;
         width: 250px;
         position: relative;
         left: 25px;
+        bottom: 150px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     }
     .card-right-header{
