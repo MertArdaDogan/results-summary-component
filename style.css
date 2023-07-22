@@ -191,17 +191,27 @@ span{
         flex-wrap: wrap;
     }
     .card-left{
-        height: 250px;
+        height: 280px;
         border-radius: 0px 0px 20px 20px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     }
-    .card-left-header{
-        font-size: 16px;
+    .card-number{
+        top: 25px;
+    }
+    .card-number-100{
+        top: 25px;
     }
     .card-left-feature{
-        left: 5px;
-        height: 130px;
-        width: 130px;
+        left: 9px;
+        height: 120px;
+        width: 120px;
+    }
+    .card-text-header{
+        margin: 7px 0 ;
+    }
+    .card-text{
+        width: 223px;
+        padding-left: 15px;
     }
     .card-right{
         border-radius: 0px 0px 20px 20px;
@@ -209,9 +219,18 @@ span{
         position: relative;
         left: 25px;
         bottom: 150px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 0px -18px;
     }
     .card-right-header{
-        margin: 25px 30px 40px 20px;
+        margin: 35px 30px 30px 20px;
     }
-}
+    .card-right-body{
+        left: 10px;
+    }
+    .card-feature-number{
+        left: 130px;
+    }
+    .card-button{
+        left: 25px;
+        width: 200px;
+    }
