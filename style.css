@@ -161,11 +161,12 @@ span{
         100% { right:10px; top:0px;}
         0%   { right:0px; top:0px;}
     }
-    .card-right{
-        width: 300px;
+
+    .card-feature-number{
+        left: 130px;
     }
-    .card-right-body{
-        left: 30px;
+    .card-button{
+        width: 210px;
     }
 }
 @media all and (max-width: 510px){
@@ -180,8 +181,17 @@ span{
         100% { right:20px; top:0px;}
         0%   { right:0px; top:0px;}
     }
-}
+
+    .card-feature-number{
+        left: 110px;
+    }
+    .card-button{
+        width: 190px;
+    }
 @media all and (max-width: 465px){
+    .card-right{
+        box-shadow: initial;
+    }
     .card-left-feature{
         position: relative;
         right: 30px;
@@ -192,6 +202,15 @@ span{
         0%   { right:0px; top:0px;}
         100% { right:30px; top:0px;}
         0%   { right:0px; top:0px;}
+    }
+    .card-right-body{
+        left: 30px;
+    }
+    .card-feature-number{
+        left: 80px;
+    }
+    .card-button{
+        width: 160px;
     }
 }
 @media all and (max-width: 375px){
