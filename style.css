@@ -194,7 +194,7 @@ span{
     }
     .card-left-feature{
         position: relative;
-        right: 30px;
+        right: 20px;
         animation-name: example;
         animation-duration: 5s;
     }
