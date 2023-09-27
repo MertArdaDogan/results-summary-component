@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    height: 850px;
 }
 .card-left{
     position: relative;
@@ -245,7 +245,7 @@ span{
         width: 250px;
         position: relative;
         left: 25px;
-        bottom: 150px;
+        bottom: 130px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 0px -18px;
     }
     .card-right-header{
