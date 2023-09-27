@@ -142,6 +142,9 @@ span{
     bottom: 0px;
     left: 50px;
 }
+.card-button:hover{
+    background-color: var(--slate-blue-background);
+}
 .button{
     color: var(--pale-blue);
     font-weight: 500;
